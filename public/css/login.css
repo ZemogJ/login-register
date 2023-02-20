@@ -1,0 +1,193 @@
+
+.tittle{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 50px;
+    color: #fff;
+    position: relative;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.form-box{
+    width: 90%;
+    max-width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: solid #215292;
+    background-color: rgba(144, 132, 132, 0.444);
+    padding: 50px 60px 70px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #215292;
+}
+
+.form-box.tittle{
+    font-size: 30px;
+    margin-bottom: 60px;
+    color: #fff;
+    position: relative;
+}
+
+.form-box h1::after{
+    content: '';
+    width: 30px;
+    height: 4px;
+    border-radius: 3px;
+    background: #fff;
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.input-field{
+    background: #333;
+    margin: 10px 0;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    max-height: 65px;
+    transition: max-height 0.5s;
+    overflow: hidden;
+}
+
+.textField{
+    border: 0;
+    border-radius: 4px;
+    color: #fff;
+    height: 40px;
+    line-height: 50px;
+    padding: 5px 20px 0;
+}
+
+input{
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 18px 15px;
+}
+
+.input-field i{
+    margin-left: 15px;
+    color: #ffff;
+}
+
+form p a{
+    text-decoration: none;
+    color: #3c00a0;
+}
+
+.btn-field{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-field button{
+        flex-basis: 90%;
+        background: #e50914;
+        color: solid #000;
+        height: 30px;
+        border-radius: 15px;
+        border: 0;
+        outline: 0;
+        cursor: pointer;
+        transition: background 1s;
+        text-align: center;
+        font-size: 17px;
+        font-weight: 500;
+}
+strong{
+    text-align: center;
+}
+
+.input-group{
+    height: 280px;
+}
+
+.btn-field button.disable{
+    color: #ffffff;
+}
+
+small{
+    color: #e87c03;
+    font-size: 10px;
+}
+
+label[for="rememberMe"] {
+    color: #b3b3b3;
+    font-size: 13px;
+    font-weight: 400;
+  }
+
+.form-group {
+    display: flex;
+    align-items: center;
+    line-height: 1.2;
+}
+  
+.remember-me-label {
+    margin-left: 5px;
+}
+
+.login-signup-now {
+    color: #737373;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 16px;
+}
+.login-signup-now a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.login-signup-now a:hover{
+    text-decoration: underline;
+    color: #fff;
+}
+.login-signup-now a:hover {
+    color: #000;
+}
+.forget-pass{
+    
+    width: 10px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 600;
+    color: #ffff;
+}
+
+.forget-pass:hover{
+    color:darkblue;
+}
+.forget-pass{
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.registerNow:hover{
+    text-decoration: underline;
+    color: darkblue;
+}
+
+.loginNow:hover{
+    text-decoration: underline;
+    color: darkblue;
+}
+
+.loginNow{
+    color: #212529;
+}
+  
+  
+
+  
+  
